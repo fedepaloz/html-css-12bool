@@ -119,3 +119,29 @@
 .col-offset-12 {
     margin-left: 100%;
 }
+
+
+/* flex */
+
+.dflex {
+    display: flex;
+}
+
+/* justify content */
+.j-center {
+    justify-content: center;
+}
+
+.j-space-around {
+    justify-content: space-around;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+/* align items */
+
+.a-i-center{align-items: center;}
+.a-i-fstart{align-items: flex-start;}
+.a-i-fend{align-items: flex-end;}
