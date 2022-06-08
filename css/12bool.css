@@ -38,6 +38,12 @@
     max-width: calc(100% / 12 * 6);
 }
 
+.large-col-6 {
+    height: 160px;
+    flex-basis: calc(100% / 12 * 6);
+    max-width: calc(100% / 12 * 6);
+}
+
 .col-7 {
     flex-basis: calc(100% / 12 * 7);
     max-width: calc(100% / 12 * 7);
@@ -140,9 +146,14 @@
     justify-content: space-between;
 }
 
-.j-centre{justify-content: center;}
+.j-centre {
+    justify-content: center;
+}
 
-.j-end{justify-content: flex-end;}
+.j-end {
+    justify-content: flex-end;
+}
+
 /* align items */
 
 .a-i-center {
@@ -159,6 +170,8 @@
 
 /* in questo caso metto tutto in una classe per i testi dentro i box */
 
-.flex-center{display: flex;
-justify-content: center;
-align-items: center;}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
