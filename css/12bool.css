@@ -44,23 +44,23 @@
 }
 
 .col-8 {
-    flex-basis: calc(100% / 8 * 12);
-    max-width: calc(100% / 8 * 12);
+    flex-basis: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
 }
 
 .col-9 {
-    flex-basis: calc(100% / 9 * 12);
-    max-width: calc(100% / 9 * 12);
+    flex-basis: calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
 }
 
 .col-10 {
-    flex-basis: calc(100% / 10 * 12);
-    max-width: calc(100% / 10 * 12);
+    flex-basis: calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
 }
 
 .col-11 {
-    flex-basis: calc(100% / 11 * 12);
-    max-width: calc(100% / 11 * 12);
+    flex-basis: calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
 }
 
 .col-12 {
