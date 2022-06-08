@@ -13,7 +13,7 @@
 
 div[class^=col-] {
     
-    height: 80px;
+    height: 100%;
     padding: 5px;
 
 
@@ -21,9 +21,19 @@ div[class^=col-] {
 
 .card {
     background-color: dodgerblue;
-    height: 100%;
+    height: 80px;
     color: white;
     font-size: 20px;
 }
 
+.card-large{height: 160px;
+    background-color: dodgerblue;
+    
+    color: white;
+    font-size: 20px;}
 
+
+.card-green{background-color: green;
+    height: 80px;
+    color: white;
+    font-size: 20px;}
