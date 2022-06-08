@@ -142,6 +142,20 @@
 
 /* align items */
 
-.a-i-center{align-items: center;}
-.a-i-fstart{align-items: flex-start;}
-.a-i-fend{align-items: flex-end;}
+.a-i-center {
+    align-items: center;
+}
+
+.a-i-fstart {
+    align-items: flex-start;
+}
+
+.a-i-fend {
+    align-items: flex-end;
+}
+
+/* in questo caso metto tutto in una classe per i testi dentro i box */
+
+.flex-center{display: flex;
+justify-content: center;
+align-items: center;}
