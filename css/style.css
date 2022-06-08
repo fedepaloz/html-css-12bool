@@ -1,4 +1,23 @@
-*{margin: 0;
-padding: 0;
-box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.container {
+    max-width: 1140;
+    margin: 0 auto;
+}
+
+
+
+div[class^=col] {background-color:rgb(199, 199, 199);
+    height: 100px; padding: 0 5px;
+   
+
+}
+
+.card {
+    background-color:dodgerblue;
+   height: 100%;   
+}
