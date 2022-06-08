@@ -140,6 +140,9 @@
     justify-content: space-between;
 }
 
+.j-centre{justify-content: center;}
+
+.j-end{justify-content: flex-end;}
 /* align items */
 
 .a-i-center {
