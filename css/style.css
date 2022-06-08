@@ -11,15 +11,24 @@
 
 
 
-div[class^=col] {background-color:rgb(255, 255, 255);
-    height: 80px; padding:5px;
-   
+div[class^=col] {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    padding: 5px;
+
 
 }
 
 .card {
-    background-color:dodgerblue;
-   height: 100%;  
-   color: white; 
-   font-size: 20px;
+    background-color: dodgerblue;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.nest-col-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+    background-color: green;
+    padding: 30px;
 }
