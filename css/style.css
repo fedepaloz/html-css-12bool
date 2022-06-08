@@ -12,7 +12,7 @@
 
 
 div[class^=col] {
-    background-color: rgb(255, 255, 255);
+    
     height: 80px;
     padding: 5px;
 
@@ -25,4 +25,10 @@ div[class^=col] {
     color: white;
     font-size: 20px;
 }
+
+.card-green{background-color: green;
+    
+    height: 100%;
+    color: white;
+    font-size: 20px}
 
